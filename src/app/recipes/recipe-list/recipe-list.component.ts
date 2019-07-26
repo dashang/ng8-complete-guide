@@ -8,7 +8,9 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe','this is simple test','https://www.thecookierookie.com/wp-content/uploads/2019/07/classic-italian-pasta-salad-recipe-4-of-6.jpg'
+    new Recipe('A Test Recipe','this is simple test','https://www.thecookierookie.com/wp-content/uploads/2019/07/classic-italian-pasta-salad-recipe-4-of-6.jpg',
+    ),
+    new Recipe('A Test Recipe','this is simple test','https://www.thecookierookie.com/wp-content/uploads/2019/07/classic-italian-pasta-salad-recipe-4-of-6.jpg',
     )
   ];
 
